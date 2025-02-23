@@ -295,10 +295,10 @@ p {
   display: flex;
   gap: 24px;
   justify-content: center;
-  gap: 24px;
 }
 .icon-item {
   list-style: none;
+  gap: 24px;
 }
 .icon-link {
   display: flex;

@@ -150,6 +150,8 @@ a {
     url(../images/office.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 1440px;
+  background-position: center;
 }
 h1 {
   font-weight: 700;
@@ -179,6 +181,7 @@ h1 {
   border-radius: 4px;
   width: 169px;
   height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {

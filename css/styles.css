@@ -298,7 +298,6 @@ p {
 }
 .icon-item {
   list-style: none;
-  gap: 24px;
 }
 .icon-link {
   display: flex;

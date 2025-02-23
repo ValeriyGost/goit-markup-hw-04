@@ -352,11 +352,10 @@ p {
 
 .tansform-payment {
   position: relative;
+  overflow: hidden;
 }
 
 .overlay {
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -365,7 +364,8 @@ p {
   background-color: #4d5ae5;
   color: #f4f4fd;
   overflow: auto;
-  padding: 32px;
+  padding: 40px 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   opacity: 0;
   transform: translateY(100%);

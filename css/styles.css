@@ -295,6 +295,7 @@ p {
   display: flex;
   gap: 24px;
   justify-content: center;
+  gap: 24px;
 }
 .icon-item {
   list-style: none;
@@ -333,6 +334,7 @@ p {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item {
   background-color: #ffffff;
@@ -358,7 +360,7 @@ p {
   background-color: #4d5ae5;
   color: #f4f4fd;
   overflow: auto;
-  padding: 32px;
+  padding: 40px 32px;
 
   opacity: 0;
   transform: translateY(100%);

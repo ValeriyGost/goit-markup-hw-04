@@ -411,8 +411,11 @@ p {
   font-weight: 500;
 }
 .footer-social-media {
+  display: flex;
+  align-items: baseline;
 }
 .container-footer {
+  margin-right: 120px;
 }
 
 /* #endregion footer */

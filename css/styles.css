@@ -462,7 +462,7 @@ p {
 .icon-link:focus {
   background-color: #31d0aa;
 }
-.icon-svg {
+svg {
   width: 24px;
   height: 24px;
 }

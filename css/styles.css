@@ -417,7 +417,7 @@ p {
 }
 
 .footer-paragrapf {
-  color: #f4f4fd;
+  color: #ffffff;
   max-width: 264px;
   margin-bottom: 16px;
 }
@@ -455,10 +455,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-link:hover,
 .icon-link:focus {
   background-color: #31d0aa;
 }
+.icon-svg {
+  width: 24px;
+  height: 24px;
+}
+
 /* #endregion footer */

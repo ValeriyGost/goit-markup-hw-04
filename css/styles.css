@@ -406,7 +406,6 @@ p {
 }
 .container-logo {
   margin-right: 120px;
-  margin-left: 156px;
 }
 .container-footer {
   display: flex;
@@ -442,10 +441,6 @@ p {
 }
 
 .icon-list {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  justify-content: center;
 }
 .icon-link {
   background-color: #4d5ae5;
@@ -462,9 +457,7 @@ p {
 .icon-link:focus {
   background-color: #31d0aa;
 }
-svg {
-  width: 24px;
-  height: 24px;
+.icon-svg {
 }
 
 /* #endregion footer */

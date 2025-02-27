@@ -366,7 +366,7 @@ p {
 
 .overlay {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: absolute;
   top: 0;
   left: 0;
@@ -415,7 +415,7 @@ p {
   align-items: baseline;
   margin: 0 auto;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1158px;
 }
 
 .footer-paragrapf {
